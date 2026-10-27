@@ -5,7 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>فك وتركيب الأثاث فوري | الخبير لفك وتركيب الأثاث</title>
 <meta name="description" content="فك وتركيب فوري للأثاث الوطني والمستورد: غرف نوم، دواليب، مطابخ، مكاتب. فنيين باكستانيين بخبرة 14 سنة وشغل على الضمان.">
-<!-- Google Ads: ضع كود gtag.js هنا -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18518864790"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-18518864790');
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -622,16 +629,15 @@ var PHONE='966538640200';
 document.querySelectorAll('.js-call').forEach(function(a){a.href='tel:+'+PHONE;});
 document.querySelectorAll('.js-wa').forEach(function(a){a.href='https://wa.me/'+PHONE;a.target='_blank';a.rel='noopener';});
 </script>
-<!-- Google Ads conversion (call + WhatsApp): ضع AW ID و label ثم احذف علامات التعليق
+<!-- Google Ads conversion: call + WhatsApp clicks -->
 <script>
 document.addEventListener('click', function (e) {
   var a = e.target.closest('a'); if (!a) return;
   var h = a.getAttribute('href') || '';
-  if (h.indexOf('tel:') > -1 || h.indexOf('wa.me') > -1) {
-    gtag('event', 'conversion', {'send_to': 'AW-XXXXXXXXX/XXXXXXXX'});
+  if (h.indexOf('tel:') === 0 || h.indexOf('wa.me') > -1) {
+    gtag('event', 'conversion', {'send_to': 'AW-18518864790/PDNOCObsyKodEJbnvf5E'});
   }
 });
 </script>
--->
 </body>
 </html>
